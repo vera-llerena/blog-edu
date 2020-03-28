@@ -1,0 +1,100 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+languageCode = "es"
+title = "Edublog | Matemáticas para Infantil"
+theme = "liva-hugo"
+summaryLength = "10"
+paginate = 6
+disqusShortname = ""
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/venobox/venobox.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/venobox/venobox.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+
+
+############################## navigation ###############################
+[menu]
+
+  # main menu
+  [[menu.main]]
+  name = "Presentación"
+  URL = "about"
+  weight = 1
+
+  [[menu.main]]
+  name = "Contacto"
+  URL = "contact"
+  weight = 3
+
+  # footer menu
+  [[menu.footer]]
+  name = "Presentación"
+  URL = "about"
+  weight = 1
+
+  [[menu.footer]]
+  name = "Contacto"
+  URL = "contact"
+  weight = 3
+
+
+#################### default parameters ################################
+[params]
+#logo = "images/logo.png"
+home = "Página Principal"
+# Meta data
+description = "En está página podrás encontrar recursos sobre lógico-matemática para Infantil"
+author = "Verónica Llerena Béjar"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# Contact Information
+mobile = "0124857985320"
+email = "vera.llerena87@gmail.com"
+location = "Maguncia, Alemania"
+# copyright
+copyright = "| &copy; 2020 [Veronica Llerena Béjar](mailto:vera.llerena87@gmail.com) Todos los derechos reservados |"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # search
+  [params.search]
+  enable = false
+
+############################ news letter ########################
+[params.newsletter]
+enable = false
+title = "Join Our Newsletter"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero"
+
+############################# social site ########################
