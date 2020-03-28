@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://hopeful-albattani-9ad08c.netlify.com/"
+baseURL = "https://vera-llerena.netlify.com"
 languageCode = "es"
 title = "Edublog | Matemáticas para Infantil"
 theme = "liva-hugo"
