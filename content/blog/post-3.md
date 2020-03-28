@@ -11,11 +11,11 @@ description: "this is meta description"
 
 # taxonomies
 tags:
-  - "#Supermercado"
-  - "#Reciclaje"
-  - "#Juego simbólico"
-  - "#Pinterest"
-
+  - "Supermercado"
+  - "Reciclaje"
+  - "Juego simbólico"
+  - "Pinterest"
+  - "Rincón"
 
 # post type
 type: "post"

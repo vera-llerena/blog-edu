@@ -11,17 +11,17 @@ description: "this is meta description"
 
 # taxonomies
 tags:
-  - "#Números"
-  - "#Video"
-  - "#Canción"
-  - "#Youtube"
-
+  - "Números"
+  - "Video"
+  - "Canción"
+  - "Youtube"
+  - "Pizarra digital"
 
 # post type
 type: "post"
 ---
 #### Descripción del recurso:
-En este video podemos escuchar una canción para aprender los números del 1 al 10. Lo llamativo de este video es que la canción es bastante pegadiza y en el video se puede visualizar como los números adoptan nuevas figuras, convirtiendo los números es figuras atractivas para los niños.
+En este video podemos escuchar una canción para aprender los números del 1 al 10. Lo llamativo de este video es que la canción es bastante pegadiza y se puede ver como los números adoptan nuevas figuras, convirtiéndose en figuras atractivas para los niños.
 
 #### Propuesta de uso del recurso:
 A través de este recurso se pretende que los niños aprendan e interioricen los números del 1 al 10 con la ayuda de una canción. ¿Por qué con música? Porque la música favorece la capacidad de los niños para la atención, concentración, estimula la memoria, el análisis y el razonamiento, y por lo tanto el aprendizaje.

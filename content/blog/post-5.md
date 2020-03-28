@@ -11,10 +11,10 @@ description: "this is meta description"
 
 # taxonomies
 tags:
-  - "#Máquina de sumar"
-  - "#Infantiles"
-  - "#Primaria"
-  - "#juego"
+  - "Máquina de sumar"
+  - "Infantil"
+  - "Primaria"
+  - "Juego"
 # post type
 type: "post"
 ---

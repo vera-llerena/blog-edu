@@ -68,13 +68,13 @@ disqusShortname = ""
 
 #################### default parameters ################################
 [params]
-#logo = "images/logo.png"
+logo = "images/milogo.png"
 home = "Página Principal"
 # Meta data
 description = "En está página podrás encontrar recursos sobre lógico-matemática para Infantil"
 author = "Verónica Llerena Béjar"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+# googleAnalitycsID = "Your ID"
 # Contact Information
 mobile = "0124857985320"
 email = "vera.llerena87@gmail.com"
