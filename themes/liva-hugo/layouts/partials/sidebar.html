@@ -1,0 +1,35 @@
+<div class="col-lg-4">
+  <!-- about -->
+  <div class="widget">
+    {{ with .Site.GetPage "/about" }}
+    <h4 class="widget-title">{{ .Title | markdownify }}</h4>
+    {{ if .Params.Image }}
+    <img src="{{ .Params.Image | absURL }}" alt=""
+      class="img-fluid author-thumb-sm d-block mx-auto rounded-circle mb-4">
+    {{ end }}
+    <p>{{ .Summary }}</p>
+    <a href="{{ .Permalink }}" class="btn btn-outline-primary">Leer más</a>
+    {{ end }}
+  </div>
+  <!-- Tags -->
+  <div class="widget">
+    <h4 class="widget-title">Etiquetas</h4>
+    {{- if isset .Site.Taxonomies "tags" }}
+    {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+    <ul class="list-inline">
+      {{- range $name, $items := .Site.Taxonomies.tags }}
+      <li class="list-inline-item"><a class="d-block p-2 bg-primary text-white"
+          href="{{ `tags/` | relLangURL }}{{ $name | urlize | lower }}">
+          {{ if in "tic" $name }}
+            {{ "TIC" }}
+          {{ else if in "máquina-de-sumar" $name }}
+            {{ "Máquina de Sumar" }}
+          {{ else }}
+            {{ $name | humanize | title }}
+          {{ end }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    {{- end }}
+  </div>
+</div>
