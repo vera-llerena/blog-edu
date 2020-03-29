@@ -13,7 +13,7 @@ description: "this is meta description"
 type : "about"
 ---
 
-Hola soy Verónica Llerena, estudiante de segundo año de Magisterio de Educación Infantil en la Universidad Internacional de la Rioja (UNIR).
+¡Hola! Soy Verónica Llerena, estudiante de segundo año de Magisterio de Educación Infantil en la Universidad Internacional de la Rioja (UNIR).
 
 Actualmente trabajo en una guardería en un pueblito de Alemania, Heidesheim, con niños de 1 a 6 años de edad. En Alemania no existen las escuelas infantiles y los niños hasta la etapa de Primaria no aprenden la lectoescritura o matemáticas de manera explícita. Pero esto no significa que los niños en la primera infancia no aprendan nada sobre estos aspectos, sino que lo hacen de manera muy lúdica, a través del juego, canciones, etc.
 
