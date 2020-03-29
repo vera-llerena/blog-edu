@@ -16,6 +16,8 @@ tags:
   - "Tablets"
   - "Android"
   - "TIC"
+  - "Matemáticas"
+
 
 # post type
 type: "post"

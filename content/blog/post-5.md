@@ -15,6 +15,9 @@ tags:
   - "Infantil"
   - "Primaria"
   - "Juego"
+  - "Reciclaje"
+  - "Pinterest"
+
 # post type
 type: "post"
 ---
