@@ -5,7 +5,7 @@ title = "Edublog | Matemáticas para Infantil"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
-disqusShortname = ""
+disqusShortname = "vera-llerena"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
